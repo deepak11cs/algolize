@@ -1,5 +1,4 @@
-import React, {useRef, useEffect} from 'react';
-import * as d3 from 'd3';
+import React from 'react';
 import Plot from 'react-plotly.js';
 
 const LinearSearchGraph = ({width, height})=>{

@@ -40,8 +40,8 @@ const LinearSearchInput = ()=>{
             Output<br/>
 
             <div>
-                {arrayOutput[0]!=-1 && "Element found at index: "+arrayOutput[0]}<br/>
-                {arrayOutput[0]==-1 && "Element Not Found!!!"}
+                {arrayOutput[0]!==-1 && "Element found at index: "+arrayOutput[0]}<br/>
+                {arrayOutput[0]===-1 && "Element Not Found!!!"}
                 {"Comparisions: "+arrayOutput[1] }</div></>}
         </div>
     )
